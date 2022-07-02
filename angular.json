@@ -1,0 +1,8 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "aws-dash": "apps/aws-dash",
+    "aws-dash-e2e": "apps/aws-dash-e2e"
+  }
+}
