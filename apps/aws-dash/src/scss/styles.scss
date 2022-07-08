@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+//@import "~bootstrap/scss/bootstrap.scss";
+@import "variables";
+
+$enable-ltr: true;
+
+
+@import "~@coreui/coreui/scss/coreui";
+
+
+@import "layout";
+
+// Some temp fixes
+@import "fixes";
+
+
+// If you want to add something do it here
+@import "custom";
+

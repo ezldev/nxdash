@@ -2,7 +2,14 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "auth": "libs/auth",
     "aws-dash": "apps/aws-dash",
-    "aws-dash-e2e": "apps/aws-dash-e2e"
+    "aws-dash-e2e": "apps/aws-dash-e2e",
+    "coreui": "libs/coreui",
+    "cui-commons": "libs/cui-commons",
+    "dash": "libs/dash",
+    "data-models": "libs/data-models",
+    "material": "libs/material",
+    "prime-ng": "libs/prime-ng"
   }
 }

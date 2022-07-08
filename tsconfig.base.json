@@ -14,7 +14,15 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nex/auth": ["libs/auth/src/index.ts"],
+      "@nex/coreui": ["libs/coreui/src/index.ts"],
+      "@nex/cui-commons": ["libs/cui-commons/src/index.ts"],
+      "@nex/dash": ["libs/dash/src/index.ts"],
+      "@nex/data-models": ["libs/data-models/src/index.ts"],
+      "@nex/material": ["libs/material/src/index.ts"],
+      "@nex/prime-ng": ["libs/prime-ng/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

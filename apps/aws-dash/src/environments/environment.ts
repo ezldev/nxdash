@@ -4,6 +4,11 @@
 
 export const environment = {
   production: false,
+  apiEndPoint: "",
+  authEnable: false,
+  centralAuth: "",
+  authApiKey: ""
+
 };
 
 /*

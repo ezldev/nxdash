@@ -1,0 +1,22 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/prime-ng/src",
+  "prefix": "nex",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/prime-ng"],
+      "options": {
+        "jestConfig": "libs/prime-ng/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["libs/prime-ng/**/*.ts", "libs/prime-ng/**/*.html"]
+      }
+    }
+  },
+  "tags": []
+}

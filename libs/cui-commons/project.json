@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/cui-commons/src",
+  "prefix": "nex",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/cui-commons"],
+      "options": {
+        "jestConfig": "libs/cui-commons/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/cui-commons/**/*.ts",
+          "libs/cui-commons/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

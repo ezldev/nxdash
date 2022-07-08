@@ -14,7 +14,7 @@
         "tsConfig": "apps/aws-dash/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": ["apps/aws-dash/src/favicon.ico", "apps/aws-dash/src/assets"],
-        "styles": ["apps/aws-dash/src/styles.scss"],
+        "styles": ["apps/aws-dash/src/scss/styles.scss"],
         "scripts": []
       },
       "configurations": {
